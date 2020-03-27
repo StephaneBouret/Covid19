@@ -1,0 +1,88 @@
+        <div class="container">
+            <div class="card mb-4 mt-4 border-dark">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-sm-12">
+                            <h4 class="card-title">{prenom} {nom}</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-sm-3">
+                            <div class="text-center">
+                                <img src="{photo}" class="img-fluid img-circle img-thumbnail" alt="avatar">
+                            </div>
+                        </div>
+                        <div class="col-sm-9">
+                            <div class="d-sm-flex flex-wrap">
+                                <legend><i class="fa fa-home"></i> Détails de l'adhérent</legend>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Adresse :</p>
+                                    <p class="card-text">{adresse}</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Code Postal :</p>
+                                    <p class="card-text">{codepostal}</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Ville :</p>
+                                    <p class="card-text">{ville}</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Téléphone :</p>
+                                    <p class="card-text">{telephone}</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">email :</p>
+                                    <p class="card-text">{email}</p>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-sm-flex flex-wrap">
+                                <legend><i class="fas fa-chart-line"></i> Statut de l'adhérent</legend>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Fonction :</p>
+                                    <p class="card-text">{fonction}</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Statut :</p>
+                                    <p class="card-text">{statut}</p>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-sm-flex flex-wrap">
+                                <legend><i class="far fa-calendar-alt"></i> Ancienneté de l'adhérent</legend>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Date d'entrée :</p>
+                                    <p class="card-text">{dateEntree}</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Date de sortie :</p>
+                                    <p class="card-text">{dateSortie}</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Ancienneté :</p>
+                                    <p class="card-text">{anciennete}</p>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-sm-flex flex-wrap">
+                                <legend><i class="fas fa-euro-sign"></i> Cotisations de l'adhérent</legend>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Cotisations :</p>
+                                    <p class="card-text">{cotisations}</p>
+                                </div>
+                                <div class="col-sm-6">
+                                    <p class="card-text font-weight-bold">Mode de réglement :</p>
+                                    <p class="card-text">{reglement}</p>
+                                </div>
+                            </div>
+                            <div class="mt-3 d-sm-flex flex-wrap justify-content-start">
+                                    <a href="index.php?controller=adherent" class="btn btn-success mr-3 text-white"><i class="fas fa-list"></i>
+                                    </a>
+                                    <a class="btn btn-warning mr-3 text-white" href="index.php?controller=adherent&action=updateForm&id={idAdherent}"><i class='fas fa-pen'></i>
+                                    </a>
+                                    <a id="closeMember" class="btn btn-danger text-white" href="index.php?controller=adherent&action=suppDB&id={idAdherent}"><i class='fas fa-trash'></i>
+                                    </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>

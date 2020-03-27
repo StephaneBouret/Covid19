@@ -1,0 +1,1180 @@
+{
+    "AF": {
+        "Name": "Afghanistan",
+        "Population": "35530081",
+        "Frenchname": "Afghanistan",
+        "Flag": "png100px/af.png"
+    },
+    "AL": {
+        "Name": "Albania",
+        "Population": "2930187",
+        "Frenchname": "Albanie",
+        "Flag": "png100px/al.png"
+    },
+    "DZ": {
+        "Name": "Algeria",
+        "Population": "41318142",
+        "Frenchname": "Algérie",
+        "Flag": "png100px/dz.png"
+    },
+    "AS": {
+        "Name": "American Samoa",
+        "Population": "55641",
+        "Frenchname": "Samoa américaines",
+        "Flag": "png100px/as.png"
+    },
+    "AD": {
+        "Name": "Andorra",
+        "Population": "76965",
+        "Frenchname": "Andorre",
+        "Flag": "png100px/ad.png"
+    },
+    "AO": {
+        "Name": "Angola",
+        "Population": "29784193",
+        "Frenchname": "Angola",
+        "Flag": "png100px/ao.png"
+    },
+    "AI": {
+        "Name": "Anguilla",
+        "Population": "14909",
+        "Frenchname": "Anguilla",
+        "Flag": "png100px/ai.png"
+    },
+    "AQ": {
+        "Name": "Antarctica",
+        "Population": null,
+        "Frenchname": "Antarctique"
+    },
+    "AG": {
+        "Name": "Antigua and Barbuda",
+        "Population": "102012",
+        "Frenchname": "Antigua-et-Barbuda"
+    },
+    "AR": {
+        "Name": "Argentina",
+        "Population": "44271041",
+        "Frenchname": "Argentine"
+    },
+    "AM": {
+        "Name": "Armenia",
+        "Population": "2930450",
+        "Frenchname": "Arménie"
+    },
+    "AW": {
+        "Name": "Aruba",
+        "Population": "105264",
+        "Frenchname": "Aruba"
+    },
+    "AU": {
+        "Name": "Australia",
+        "Population": "24450561",
+        "Frenchname": "Australie"
+    },
+    "AT": {
+        "Name": "Austria",
+        "Population": "8735453",
+        "Frenchname": "Autriche"
+    },
+    "AZ": {
+        "Name": "Azerbaijan",
+        "Population": "9827589",
+        "Frenchname": "Azerbaïdjan"
+    },
+    "BS": {
+        "Name": "Bahamas",
+        "Population": "395361",
+        "Frenchname": "Bahamas"
+    },
+    "BH": {
+        "Name": "Bahrain",
+        "Population": "1492584",
+        "Frenchname": "Bahreïn"
+    },
+    "BD": {
+        "Name": "Bangladesh",
+        "Population": "164669751",
+        "Frenchname": "Bangladesh"
+    },
+    "BB": {
+        "Name": "Barbados",
+        "Population": "285719",
+        "Frenchname": "Barbade"
+    },
+    "BY": {
+        "Name": "Belarus",
+        "Population": "9468338",
+        "Frenchname": "Bélarus"
+    },
+    "BE": {
+        "Name": "Belgium",
+        "Population": "11429336",
+        "Frenchname": "Belgique"
+    },
+    "BZ": {
+        "Name": "Belize",
+        "Population": "374681",
+        "Frenchname": "Belize"
+    },
+    "BJ": {
+        "Name": "Benin",
+        "Population": "11175692",
+        "Frenchname": "Bénin"
+    },
+    "BM": {
+        "Name": "Bermuda",
+        "Population": "61349",
+        "Frenchname": "Bermudes"
+    },
+    "BT": {
+        "Name": "Bhutan",
+        "Population": "807610",
+        "Frenchname": "Bhoutan"
+    },
+    "BO": {
+        "Name": "Bolivia",
+        "Population": "11051600",
+        "Frenchname": "Bolivie"
+    },
+    "BA": {
+        "Name": "Bosnia and Herzegovina",
+        "Population": "3507017",
+        "Frenchname": "Bosnie-Herzégovine"
+    },
+    "BW": {
+        "Name": "Botswana",
+        "Population": "2291661",
+        "Frenchname": "Botswana"
+    },
+    "BV": {
+        "Name": "Bouvet Island",
+        "Population": null,
+        "Frenchname": "Île Bouvet"
+    },
+    "BR": {
+        "Name": "Brazil",
+        "Population": "209288278",
+        "Frenchname": "Brésil"
+    },
+    "IO": {
+        "Name": "British Indian Ocean Territory",
+        "Population": null,
+        "Frenchname": "Territoire britannique de l'océan Indien"
+    },
+    "BN": {
+        "Name": "Brunei",
+        "Population": "428697",
+        "Frenchname": "Brunéi Darussalam"
+    },
+    "BG": {
+        "Name": "Bulgaria",
+        "Population": "7084571",
+        "Frenchname": "Bulgarie"
+    },
+    "BF": {
+        "Name": "Burkina Faso",
+        "Population": "19193382",
+        "Frenchname": "Burkina Faso"
+    },
+    "BI": {
+        "Name": "Burundi",
+        "Population": "10864245",
+        "Frenchname": "Burundi"
+    },
+    "KH": {
+        "Name": "Cambodia",
+        "Population": "16005373",
+        "Frenchname": "Cambodge"
+    },
+    "CM": {
+        "Name": "Cameroon",
+        "Population": "24053727",
+        "Frenchname": "Cameroun"
+    },
+    "CA": {
+        "Name": "Canada",
+        "Population": "36624199",
+        "Frenchname": "Canada"
+    },
+    "CV": {
+        "Name": "Cape Verde",
+        "Population": "546388",
+        "Frenchname": "Cap-vert"
+    },
+    "KY": {
+        "Name": "Cayman Islands",
+        "Population": "61559",
+        "Frenchname": "Îles Caïmanes"
+    },
+    "CF": {
+        "Name": "Central African Republic",
+        "Population": "4659080",
+        "Frenchname": "République centrafricaine"
+    },
+    "TD": {
+        "Name": "Chad",
+        "Population": "14899994",
+        "Frenchname": "Tchad"
+    },
+    "CL": {
+        "Name": "Chile",
+        "Population": "18054726",
+        "Frenchname": "Chili"
+    },
+    "CN": {
+        "Name": "China",
+        "Population": "1409517397",
+        "Frenchname": "Chine"
+    },
+    "CX": {
+        "Name": "Christmas Island",
+        "Population": "2500",
+        "Frenchname": "Île Christmas"
+    },
+    "CC": {
+        "Name": "Cocos (Keeling) Islands",
+        "Population": "600",
+        "Frenchname": "Îles Cocos - Keeling"
+    },
+    "CO": {
+        "Name": "Colombia",
+        "Population": "49065615",
+        "Frenchname": "Colombie"
+    },
+    "KM": {
+        "Name": "Comoros",
+        "Population": "813912",
+        "Frenchname": "Comores"
+    },
+    "CG": {
+        "Name": "Congo",
+        "Population": "5260750",
+        "Frenchname": "Congo (Brazzaville)"
+    },
+    "CK": {
+        "Name": "Cook Islands",
+        "Population": "17380",
+        "Frenchname": "Îles Cook"
+    },
+    "CR": {
+        "Name": "Costa Rica",
+        "Population": "4905769",
+        "Frenchname": "Costa Rica"
+    },
+    "HR": {
+        "Name": "Croatia",
+        "Population": "4189353",
+        "Frenchname": "Croatie"
+    },
+    "CU": {
+        "Name": "Cuba",
+        "Population": "11484636",
+        "Frenchname": "Cuba"
+    },
+    "CY": {
+        "Name": "Cyprus",
+        "Population": "1179551",
+        "Frenchname": "Chypre"
+    },
+    "CZ": {
+        "Name": "Czech Republic",
+        "Population": "10618303",
+        "Frenchname": "République tchèque"
+    },
+    "DK": {
+        "Name": "Denmark",
+        "Population": "5733551",
+        "Frenchname": "Danemark"
+    },
+    "DJ": {
+        "Name": "Djibouti",
+        "Population": "956985",
+        "Frenchname": "Djibouti"
+    },
+    "DM": {
+        "Name": "Dominica",
+        "Population": "73925",
+        "Frenchname": "Dominique"
+    },
+    "DO": {
+        "Name": "Dominican Republic",
+        "Population": "10766998",
+        "Frenchname": "République dominicaine"
+    },
+    "TL": {
+        "Name": "East Timor",
+        "Population": "1296311",
+        "Frenchname": "Timor-Leste"
+    },
+    "EC": {
+        "Name": "Ecuador",
+        "Population": "16624858",
+        "Frenchname": "Équateur"
+    },
+    "EG": {
+        "Name": "Egypt",
+        "Population": "97553151",
+        "Frenchname": "Égypte"
+    },
+    "SV": {
+        "Name": "El Salvador",
+        "Population": "6377853",
+        "Frenchname": "El Salvador"
+    },
+    "GQ": {
+        "Name": "Equatorial Guinea",
+        "Population": "1267689",
+        "Frenchname": "Guinée Équatoriale"
+    },
+    "ER": {
+        "Name": "Eritrea",
+        "Population": "5068831",
+        "Frenchname": "Érythrée"
+    },
+    "EE": {
+        "Name": "Estonia",
+        "Population": "1309632",
+        "Frenchname": "Estonie"
+    },
+    "ET": {
+        "Name": "Ethiopia",
+        "Population": "104957438",
+        "Frenchname": "Éthiopie"
+    },
+    "FK": {
+        "Name": "Falkland Islands",
+        "Population": "2910",
+        "Frenchname": "Îles Malouines"
+    },
+    "FO": {
+        "Name": "Faroe Islands",
+        "Population": "49290",
+        "Frenchname": "Îles Féroé"
+    },
+    "FJ": {
+        "Name": "Fiji Islands",
+        "Population": "905502",
+        "Frenchname": "Fidji"
+    },
+    "FI": {
+        "Name": "Finland",
+        "Population": "5523231",
+        "Frenchname": "Finlande"
+    },
+    "FR": {
+        "Name": "France",
+        "Population": "64979548",
+        "Frenchname": "France",
+        "Flag": "png100px/fr.png"
+    },
+    "GF": {
+        "Name": "French Guiana",
+        "Population": "282731",
+        "Frenchname": "Guyane française"
+    },
+    "PF": {
+        "Name": "French Polynesia",
+        "Population": "283007",
+        "Frenchname": "Polynésie française"
+    },
+    "TF": {
+        "Name": "French Southern Territories",
+        "Population": null,
+        "Frenchname": "Terres australes françaises"
+    },
+    "GA": {
+        "Name": "Gabon",
+        "Population": "2025137",
+        "Frenchname": "Gabon"
+    },
+    "GM": {
+        "Name": "Gambia",
+        "Population": "2100568",
+        "Frenchname": "Gambie"
+    },
+    "GE": {
+        "Name": "Georgia",
+        "Population": "3912061",
+        "Frenchname": "Géorgie"
+    },
+    "DE": {
+        "Name": "Germany",
+        "Population": "82114224",
+        "Frenchname": "Allemagne"
+    },
+    "GH": {
+        "Name": "Ghana",
+        "Population": "28833629",
+        "Frenchname": "Ghana"
+    },
+    "GI": {
+        "Name": "Gibraltar",
+        "Population": "34571",
+        "Frenchname": "Gibraltar"
+    },
+    "GR": {
+        "Name": "Greece",
+        "Population": "11159773",
+        "Frenchname": "Grèce"
+    },
+    "GL": {
+        "Name": "Greenland",
+        "Population": "56480",
+        "Frenchname": "Groenland"
+    },
+    "GD": {
+        "Name": "Grenada",
+        "Population": "107825",
+        "Frenchname": "Grenade"
+    },
+    "GP": {
+        "Name": "Guadeloupe",
+        "Population": "449568",
+        "Frenchname": "Guadeloupe"
+    },
+    "GU": {
+        "Name": "Guam",
+        "Population": "164229",
+        "Frenchname": "Guam"
+    },
+    "GT": {
+        "Name": "Guatemala",
+        "Population": "16913503",
+        "Frenchname": "Guatemala"
+    },
+    "GN": {
+        "Name": "Guinea",
+        "Population": "12717176",
+        "Frenchname": "Guinée"
+    },
+    "GW": {
+        "Name": "Guinea-Bissau",
+        "Population": "1861283",
+        "Frenchname": "Guinée-Bissau"
+    },
+    "GY": {
+        "Name": "Guyana",
+        "Population": "777859",
+        "Frenchname": "Guyana"
+    },
+    "HT": {
+        "Name": "Haiti",
+        "Population": "10981229",
+        "Frenchname": "Haïti"
+    },
+    "HM": {
+        "Name": "Heard Island and McDonald Islands",
+        "Population": null,
+        "Frenchname": "Îles Heard et MacDonald"
+    },
+    "VA": {
+        "Name": "Holy See (Vatican City State)",
+        "Population": "1000",
+        "Frenchname": "Vatican"
+    },
+    "HN": {
+        "Name": "Honduras",
+        "Population": "9265067",
+        "Frenchname": "Honduras"
+    },
+    "HK": {
+        "Name": "Hong Kong",
+        "Population": "7364883",
+        "Frenchname": "Hong-Kong"
+    },
+    "HU": {
+        "Name": "Hungary",
+        "Population": "9721559",
+        "Frenchname": "Hongrie"
+    },
+    "IS": {
+        "Name": "Iceland",
+        "Population": "335025",
+        "Frenchname": "Islande"
+    },
+    "IN": {
+        "Name": "India",
+        "Population": "1339180127",
+        "Frenchname": "Inde"
+    },
+    "ID": {
+        "Name": "Indonesia",
+        "Population": "263991379",
+        "Frenchname": "Indonésie"
+    },
+    "IR": {
+        "Name": "Iran",
+        "Population": "81162788",
+        "Frenchname": "Iran"
+    },
+    "IQ": {
+        "Name": "Iraq",
+        "Population": "38274618",
+        "Frenchname": "Iraq"
+    },
+    "IE": {
+        "Name": "Ireland",
+        "Population": "4761657",
+        "Frenchname": "Irlande"
+    },
+    "IL": {
+        "Name": "Israel",
+        "Population": "8321570",
+        "Frenchname": "Israël"
+    },
+    "IT": {
+        "Name": "Italy",
+        "Population": "59359900",
+        "Frenchname": "Italie"
+    },
+    "CI": {
+        "Name": "Ivory Coast",
+        "Population": "24294750",
+        "Frenchname": "Côte d'Ivoire"
+    },
+    "JM": {
+        "Name": "Jamaica",
+        "Population": "2890299",
+        "Frenchname": "Jamaïque"
+    },
+    "JP": {
+        "Name": "Japan",
+        "Population": "127484450",
+        "Frenchname": "Japon"
+    },
+    "JO": {
+        "Name": "Jordan",
+        "Population": "9702353",
+        "Frenchname": "Jordanie"
+    },
+    "KZ": {
+        "Name": "Kazakhstan",
+        "Population": "18204499",
+        "Frenchname": "Kazakhstan"
+    },
+    "KE": {
+        "Name": "Kenya",
+        "Population": "49699862",
+        "Frenchname": "Kenya"
+    },
+    "KI": {
+        "Name": "Kiribati",
+        "Population": "116398",
+        "Frenchname": "Kiribati"
+    },
+    "KW": {
+        "Name": "Kuwait",
+        "Population": "4136528",
+        "Frenchname": "Koweït"
+    },
+    "KG": {
+        "Name": "Kyrgyzstan",
+        "Population": "6045117",
+        "Frenchname": "Kirghizistan"
+    },
+    "LA": {
+        "Name": "Laos",
+        "Population": "6858160",
+        "Frenchname": "Laos"
+    },
+    "LV": {
+        "Name": "Latvia",
+        "Population": "1949670",
+        "Frenchname": "Lettonie"
+    },
+    "LB": {
+        "Name": "Lebanon",
+        "Population": "6082357",
+        "Frenchname": "Liban"
+    },
+    "LS": {
+        "Name": "Lesotho",
+        "Population": "2233339",
+        "Frenchname": "Lesotho"
+    },
+    "LR": {
+        "Name": "Liberia",
+        "Population": "4731906",
+        "Frenchname": "Libéria"
+    },
+    "LI": {
+        "Name": "Liechtenstein",
+        "Population": "37922",
+        "Frenchname": "Liechtenstein"
+    },
+    "LT": {
+        "Name": "Lithuania",
+        "Population": "2890297",
+        "Frenchname": "Lituanie"
+    },
+    "LU": {
+        "Name": "Luxembourg",
+        "Population": "583455",
+        "Frenchname": "Luxembourg"
+    },
+    "MO": {
+        "Name": "Macao",
+        "Population": "473000",
+        "Frenchname": "Macao"
+    },
+    "MK": {
+        "Name": "North Macedonia",
+        "Population": "2024000",
+        "Frenchname": "Macédoine"
+    },
+    "MG": {
+        "Name": "Madagascar",
+        "Population": "25570895",
+        "Frenchname": "Madagascar"
+    },
+    "MW": {
+        "Name": "Malawi",
+        "Population": "18622104",
+        "Frenchname": "Malawi"
+    },
+    "MY": {
+        "Name": "Malaysia",
+        "Population": "31624264",
+        "Frenchname": "Malaisie"
+    },
+    "MV": {
+        "Name": "Maldives",
+        "Population": "436330",
+        "Frenchname": "Maldives"
+    },
+    "ML": {
+        "Name": "Mali",
+        "Population": "18541980",
+        "Frenchname": "Mali"
+    },
+    "MT": {
+        "Name": "Malta",
+        "Population": "430835",
+        "Frenchname": "Malte"
+    },
+    "MH": {
+        "Name": "Marshall Islands",
+        "Population": "53127",
+        "Frenchname": "Îles Marshall"
+    },
+    "MQ": {
+        "Name": "Martinique",
+        "Population": "384896",
+        "Frenchname": "Martinique"
+    },
+    "MR": {
+        "Name": "Mauritania",
+        "Population": "4420184",
+        "Frenchname": "Mauritanie"
+    },
+    "MU": {
+        "Name": "Mauritius",
+        "Population": "1265138",
+        "Frenchname": "Maurice"
+    },
+    "YT": {
+        "Name": "Mayotte",
+        "Population": "253045",
+        "Frenchname": "Mayotte"
+    },
+    "MX": {
+        "Name": "Mexico",
+        "Population": "129163276",
+        "Frenchname": "Mexique"
+    },
+    "FM": {
+        "Name": "Micronesia, Federated States of",
+        "Population": null,
+        "Frenchname": "États fédérés de Micronésie"
+    },
+    "MD": {
+        "Name": "Moldova",
+        "Population": "4051212",
+        "Frenchname": "Moldavie"
+    },
+    "MC": {
+        "Name": "Monaco",
+        "Population": "38695",
+        "Frenchname": "Monaco"
+    },
+    "MN": {
+        "Name": "Mongolia",
+        "Population": "3075647",
+        "Frenchname": "Mongolie"
+    },
+    "MS": {
+        "Name": "Montserrat",
+        "Population": "5177",
+        "Frenchname": "Montserrat"
+    },
+    "MA": {
+        "Name": "Morocco",
+        "Population": "35739580",
+        "Frenchname": "Maroc"
+    },
+    "MZ": {
+        "Name": "Mozambique",
+        "Population": "29668834",
+        "Frenchname": "Mozambique"
+    },
+    "MM": {
+        "Name": "Myanmar",
+        "Population": "53370609",
+        "Frenchname": "Myanmar"
+    },
+    "NA": {
+        "Name": "Namibia",
+        "Population": "2533794",
+        "Frenchname": "Namibie"
+    },
+    "NR": {
+        "Name": "Nauru",
+        "Population": "11359",
+        "Frenchname": "Nauru"
+    },
+    "NP": {
+        "Name": "Nepal",
+        "Population": "29304998",
+        "Frenchname": "Népal"
+    },
+    "NL": {
+        "Name": "Netherlands",
+        "Population": "17035938",
+        "Frenchname": "Pays-Bas"
+    },
+    "NC": {
+        "Name": "New Caledonia",
+        "Population": "276255",
+        "Frenchname": "Nouvelle-Calédonie"
+    },
+    "NZ": {
+        "Name": "New Zealand",
+        "Population": "4705818",
+        "Frenchname": "Nouvelle-Zélande"
+    },
+    "NI": {
+        "Name": "Nicaragua",
+        "Population": "6217581",
+        "Frenchname": "Nicaragua"
+    },
+    "NE": {
+        "Name": "Niger",
+        "Population": "21477348",
+        "Frenchname": "Niger"
+    },
+    "NG": {
+        "Name": "Nigeria",
+        "Population": "190886311",
+        "Frenchname": "Nigéria"
+    },
+    "NU": {
+        "Name": "Niue",
+        "Population": "1618",
+        "Frenchname": "Niue"
+    },
+    "NF": {
+        "Name": "Norfolk Island",
+        "Population": "2000",
+        "Frenchname": "Île Norfolk"
+    },
+    "KP": {
+        "Name": "North Korea",
+        "Population": "25490965",
+        "Frenchname": "Corée du Nord"
+    },
+    "MP": {
+        "Name": "Northern Mariana Islands",
+        "Population": "55144",
+        "Frenchname": "Îles Mariannes du Nord"
+    },
+    "NO": {
+        "Name": "Norway",
+        "Population": "5305383",
+        "Frenchname": "Norvège"
+    },
+    "OM": {
+        "Name": "Oman",
+        "Population": "4636262",
+        "Frenchname": "Oman"
+    },
+    "PK": {
+        "Name": "Pakistan",
+        "Population": "197015955",
+        "Frenchname": "Pakistan"
+    },
+    "PW": {
+        "Name": "Palau",
+        "Population": "21729",
+        "Frenchname": "Palaos"
+    },
+    "PS": {
+        "Name": "Palestine",
+        "Population": "4920724",
+        "Frenchname": "Palestine"
+    },
+    "PA": {
+        "Name": "Panama",
+        "Population": "4098587",
+        "Frenchname": "Panama"
+    },
+    "PG": {
+        "Name": "Papua New Guinea",
+        "Population": "8251162",
+        "Frenchname": "Papouasie-Nouvelle-Guinée"
+    },
+    "PY": {
+        "Name": "Paraguay",
+        "Population": "6811297",
+        "Frenchname": "Paraguay"
+    },
+    "PE": {
+        "Name": "Peru",
+        "Population": "32165485",
+        "Frenchname": "Pérou"
+    },
+    "PH": {
+        "Name": "Philippines",
+        "Population": "104918090",
+        "Frenchname": "Philippines"
+    },
+    "PN": {
+        "Name": "Pitcairn",
+        "Population": "50",
+        "Frenchname": "Pitcairn"
+    },
+    "PL": {
+        "Name": "Poland",
+        "Population": "38170712",
+        "Frenchname": "Pologne"
+    },
+    "PT": {
+        "Name": "Portugal",
+        "Population": "10329506",
+        "Frenchname": "Portugal"
+    },
+    "PR": {
+        "Name": "Puerto Rico",
+        "Population": "3663131",
+        "Frenchname": "Porto Rico"
+    },
+    "QA": {
+        "Name": "Qatar",
+        "Population": "2639211",
+        "Frenchname": "Qatar"
+    },
+    "RO": {
+        "Name": "Romania",
+        "Population": "19679306",
+        "Frenchname": "Roumanie"
+    },
+    "RU": {
+        "Name": "Russian Federation",
+        "Population": "143989754",
+        "Frenchname": "Fédération de Russie"
+    },
+    "RW": {
+        "Name": "Rwanda",
+        "Population": "12208407",
+        "Frenchname": "Rwanda"
+    },
+    "KN": {
+        "Name": "Saint Kitts and Nevis",
+        "Population": "55345",
+        "Frenchname": "Saint-Kitts-et-Nevis"
+    },
+    "LC": {
+        "Name": "Saint Lucia",
+        "Population": "178844",
+        "Frenchname": "Sainte-Lucie"
+    },
+    "PM": {
+        "Name": "Saint Pierre and Miquelon",
+        "Population": "6320",
+        "Frenchname": "Saint-Pierre-et-Miquelon"
+    },
+    "VC": {
+        "Name": "Saint Vincent and the Grenadines",
+        "Population": "109897",
+        "Frenchname": "St-Vincent / Grenadines"
+    },
+    "WS": {
+        "Name": "Samoa",
+        "Population": "196440",
+        "Frenchname": "Samoa"
+    },
+    "SM": {
+        "Name": "San Marino",
+        "Population": "33400",
+        "Frenchname": "Saint-Marin"
+    },
+    "ST": {
+        "Name": "Sao Tome and Principe",
+        "Population": "204327",
+        "Frenchname": "Sao Tomé-et-Principe"
+    },
+    "SA": {
+        "Name": "Saudi Arabia",
+        "Population": "32938213",
+        "Frenchname": "Arabie saoudite"
+    },
+    "SN": {
+        "Name": "Senegal",
+        "Population": "15850567",
+        "Frenchname": "Sénégal"
+    },
+    "SC": {
+        "Name": "Seychelles",
+        "Population": "94737",
+        "Frenchname": "Seychelles"
+    },
+    "SL": {
+        "Name": "Sierra Leone",
+        "Population": "7557212",
+        "Frenchname": "Sierra Leone"
+    },
+    "SG": {
+        "Name": "Singapore",
+        "Population": "5708844",
+        "Frenchname": "Singapour"
+    },
+    "SK": {
+        "Name": "Slovakia",
+        "Population": "5447662",
+        "Frenchname": "Slovaquie"
+    },
+    "SI": {
+        "Name": "Slovenia",
+        "Population": "2079976",
+        "Frenchname": "Slovénie"
+    },
+    "SB": {
+        "Name": "Solomon Islands",
+        "Population": "611343",
+        "Frenchname": "Îles Salomon"
+    },
+    "SO": {
+        "Name": "Somalia",
+        "Population": "14742523",
+        "Frenchname": "Somalie"
+    },
+    "ZA": {
+        "Name": "South Africa",
+        "Population": "56717156",
+        "Frenchname": "Afrique du Sud"
+    },
+    "GS": {
+        "Name": "South Georgia and the South Sandwich Islands",
+        "Population": null,
+        "Frenchname": "Géorgie du Sud et les îles Sandwich du Sud"
+    },
+    "KR": {
+        "Name": "South Korea",
+        "Population": "50982212",
+        "Frenchname": "Corée du Sud"
+    },
+    "SS": {
+        "Name": "South Sudan",
+        "Population": "12575714",
+        "Frenchname": "Sud Soudan"
+    },
+    "ES": {
+        "Name": "Spain",
+        "Population": "46354321",
+        "Frenchname": "Espagne"
+    },
+    "LK": {
+        "Name": "SriLanka",
+        "Population": "20876917",
+        "Frenchname": "Sri Lanka"
+    },
+    "SD": {
+        "Name": "Sudan",
+        "Population": "40533330",
+        "Frenchname": "Soudan"
+    },
+    "SR": {
+        "Name": "Suriname",
+        "Population": "563402",
+        "Frenchname": "Suriname"
+    },
+    "SJ": {
+        "Name": "Svalbard and Jan Mayen",
+        "Population": "3200",
+        "Frenchname": "Svalbard et Île Jan Mayen"
+    },
+    "SZ": {
+        "Name": "Swaziland",
+        "Population": "1008000",
+        "Frenchname": "Swaziland"
+    },
+    "SE": {
+        "Name": "Sweden",
+        "Population": "9910701",
+        "Frenchname": "Suède"
+    },
+    "CH": {
+        "Name": "Switzerland",
+        "Population": "8476005",
+        "Frenchname": "Suisse"
+    },
+    "SY": {
+        "Name": "Syria",
+        "Population": "18269868",
+        "Frenchname": "Syrie"
+    },
+    "TJ": {
+        "Name": "Tajikistan",
+        "Population": "8921343",
+        "Frenchname": "Tadjikistan"
+    },
+    "TZ": {
+        "Name": "Tanzania",
+        "Population": "57310019",
+        "Frenchname": "Tanzanie"
+    },
+    "TH": {
+        "Name": "Thailand",
+        "Population": "69037513",
+        "Frenchname": "Thaïlande"
+    },
+    "CD": {
+        "Name": "The Democratic Republic of Congo",
+        "Population": null,
+        "Frenchname": "Rép. Dém. du Congo"
+    },
+    "TG": {
+        "Name": "Togo",
+        "Population": "7797694",
+        "Frenchname": "Togo"
+    },
+    "TK": {
+        "Name": "Tokelau",
+        "Population": "1300",
+        "Frenchname": "Tokelau"
+    },
+    "TO": {
+        "Name": "Tonga",
+        "Population": "108020",
+        "Frenchname": "Tonga"
+    },
+    "TT": {
+        "Name": "Trinidad and Tobago",
+        "Population": "1369125",
+        "Frenchname": "Trinité-et-Tobago"
+    },
+    "TN": {
+        "Name": "Tunisia",
+        "Population": "11532127",
+        "Frenchname": "Tunisie"
+    },
+    "TR": {
+        "Name": "Turkey",
+        "Population": "80745020",
+        "Frenchname": "Turquie"
+    },
+    "TM": {
+        "Name": "Turkmenistan",
+        "Population": "5758075",
+        "Frenchname": "Turkménistan"
+    },
+    "TC": {
+        "Name": "Turks and Caicos Islands",
+        "Population": "35446",
+        "Frenchname": "Îles Turks et Caïques"
+    },
+    "TV": {
+        "Name": "Tuvalu",
+        "Population": "11192",
+        "Frenchname": "Tuvalu"
+    },
+    "UG": {
+        "Name": "Uganda",
+        "Population": "42862958",
+        "Frenchname": "Ouganda"
+    },
+    "UA": {
+        "Name": "Ukraine",
+        "Population": "44222947",
+        "Frenchname": "Ukraine"
+    },
+    "AE": {
+        "Name": "United Arab Emirates",
+        "Population": "9400145",
+        "Frenchname": "Émirats arabes unis"
+    },
+    "GB": {
+        "Name": "United Kingdom",
+        "Population": "66181585",
+        "Frenchname": "Royaume-Uni"
+    },
+    "US": {
+        "Name": "United States",
+        "Population": "324459463",
+        "Frenchname": "États-Unis"
+    },
+    "UM": {
+        "Name": "United States Minor Outlying Islands",
+        "Population": null,
+        "Frenchname": "Îles Mineures Éloignées des États-Unis"
+    },
+    "UY": {
+        "Name": "Uruguay",
+        "Population": "3456750",
+        "Frenchname": "Uruguay"
+    },
+    "UZ": {
+        "Name": "Uzbekistan",
+        "Population": "31910641",
+        "Frenchname": "Ouzbékistan"
+    },
+    "VU": {
+        "Name": "Vanuatu",
+        "Population": "276244",
+        "Frenchname": "Vanuatu"
+    },
+    "VE": {
+        "Name": "Venezuela",
+        "Population": "31977065",
+        "Frenchname": "Venezuela"
+    },
+    "VN": {
+        "Name": "Vietnam",
+        "Population": "95540800",
+        "Frenchname": "Viet Nam"
+    },
+    "VG": {
+        "Name": "Virgin Islands, British",
+        "Population": null,
+        "Frenchname": "Îles Vierges britanniques"
+    },
+    "VI": {
+        "Name": "Virgin Islands, U.S.",
+        "Population": null,
+        "Frenchname": "Îles Vierges des États-Unis"
+    },
+    "WF": {
+        "Name": "Wallis and Futuna",
+        "Population": "11773",
+        "Frenchname": "Wallis-et-Futuna"
+    },
+    "EH": {
+        "Name": "Western Sahara",
+        "Population": "552628",
+        "Frenchname": "Sahara occidental"
+    },
+    "YE": {
+        "Name": "Yemen",
+        "Population": "28250420",
+        "Frenchname": "Yémen"
+    },
+    "ZM": {
+        "Name": "Zambia",
+        "Population": "17094130",
+        "Frenchname": "Zambie"
+    },
+    "ZW": {
+        "Name": "Zimbabwe",
+        "Population": "16529904",
+        "Frenchname": "Zimbabwe"
+    }
+}

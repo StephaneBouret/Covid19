@@ -1,6 +1,11 @@
 .h2, h2 {
     font-size: 2rem;
 }
+.d-block img {
+    width: 24px;
+    height: auto;
+    vertical-align: initial;
+}
 a:hover {
     text-decoration: none!important;
 }

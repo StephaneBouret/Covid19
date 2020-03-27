@@ -89,4 +89,10 @@ class CountryController extends Controller
         $this->model->export_data_to_csv($country);
     }
 
+    public function clearBdd()
+    {
+        $this->model->clearBdd();
+        header("Location: index.php");
+    }
+
 }

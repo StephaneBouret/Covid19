@@ -645,4 +645,10 @@ class CountryModel extends Model
         die();
     }
 
+    public function clearBdd()
+    {
+        $request = $this->connexion->prepare("Truncate Table daydata");
+        $result = $request->execute();
+    }
+
 }

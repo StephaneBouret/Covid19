@@ -77,4 +77,16 @@ class CountryController extends Controller
         header("Location: index.php");
     }
 
+    public function createPdf()
+    {
+        $country = $this->model->getCountry();
+        $this->model->createPdf($country);
+    }
+
+    public function export_data_to_csv()
+    {
+        $country = $this->model->getCountry();
+        $this->model->export_data_to_csv($country);
+    }
+
 }

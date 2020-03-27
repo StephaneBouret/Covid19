@@ -1,4 +1,5 @@
 <?php
+require('fpdf/fpdf.php');
 
 class CountryModel extends Model
 {
@@ -581,6 +582,67 @@ class CountryModel extends Model
             }
         }
         $this->connexion->commit();
+    }
+
+    public function createPdf($country){
+        $header = array("Date", "Infections", "Décès", "Guérisons");
+        $pdf = new FPDF();
+        $pdf->AddPage();
+        $pdf->Image('png100px/'.strtolower($country[0]['code']).'.png',10,5,20);
+        // $pdf->Ln();
+        $donneePdf = [];
+        foreach ($country as $key ) {
+            $donneePdf[] = array(
+                "date" => date("d-m-Y", $key['Date']),
+                "infection" => $key['Infections'],
+                "deces" => $key['Deces'],
+                "guerisons" => $key['Guerisons'],
+            );}
+        $pdf->SetFont('Arial','B',14);
+        $pdf->Cell('auto',10,utf8_decode("Evolution par jour : ".$country[0]['name']),0,0,'C');
+        $pdf->Ln();
+
+        $pdf->SetFont('Helvetica','B',8);
+        foreach($header as $col)
+            $pdf->Cell(45,6,utf8_decode($col),1);
+            $pdf->Ln();
+    // Données
+        $pdf->SetFont('Helvetica','',9);
+        foreach($donneePdf as $row)
+        {
+            foreach($row as $col)
+            $pdf->Cell(45,6,utf8_decode($col),1);
+            $pdf->Ln();
+        }
+        $pdf->Output($country[0]["name"].'-Codid19-'.date("d-m-Y").'.pdf', 'I');
+
+    }
+
+    function export_data_to_csv($country,$filename='export',$delimiter = ';',$enclosure = '"'){
+        // Tells to the browser that a file is returned, with its name : $filename.csv
+        header("Content-disposition: attachment; filename=$filename.csv");
+        // Tells to the browser that the content is a csv file
+        header("Content-Type: text/csv");
+    
+        // I open PHP memory as a file
+        $fp = fopen("php://output", 'w');
+    
+        // Insert the UTF-8 BOM in the file
+        fputs($fp, $bom=(chr(0xEF) . chr(0xBB) . chr(0xBF)));
+    
+        // I add the array keys as CSV headers
+        fputcsv($fp,array_keys($country[0]),$delimiter,$enclosure);
+    
+        // Add all the data in the file
+        foreach ($country as $fields) {
+            fputcsv($fp, $fields,$delimiter,$enclosure);
+        }
+    
+        // Close the file
+        fclose($fp);
+    
+        // Stop the script
+        die();
     }
 
 }

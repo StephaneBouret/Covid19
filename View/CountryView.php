@@ -107,7 +107,7 @@ class CountryView extends View
             }
             $tauxInfection = round((($countries['Infections'] / $countries['population'])*100), 2);
             $this->page .= "<tr><th scope='row' class='align-middle'>".date("d-m-Y", $countries['Date'])."</th>"
-                        ."<td class='align-middle'><a class='d-block' href='index.php?controller=country&action=getCountry&pays=".$countries['name']."'><img src='./png100px/".$countries['code'].".png'>"." ".$countries['name']." <i class='fas fa-sign-in-alt'></i></a></td>"
+                        ."<td class='align-middle'><a class='d-block' href='index.php?controller=country&action=getCountry&pays=".$countries['name']."'><img src='./png100px/".strtolower($countries['code']).".png'>"." ".$countries['name']." <i class='fas fa-sign-in-alt'></i></a></td>"
                         ."<td class='align-middle'>".$countries['Infections']."</td>"
                         ."<td class='align-middle'>".$countries['Deces']."</td>"
                         ."<td class='align-middle'>".$countries['Guerisons']."</td>"
@@ -134,9 +134,13 @@ class CountryView extends View
             $codePays = $value['code'];
             $population = $value['population'];
         }
-        $this->page .= "<div class='text-center'><img class='rounded mx-auto d-block' src='./png100px/".$codePays.".png'>
+        $this->page .= "<div class='text-center'><img class='rounded mx-auto d-block' src='./png100px/".strtolower($codePays).".png'>
                     <p class='mt-4'><i class='fa fa-users mr-1'></i>".$population." habitants</p></div>";
         $this->page .= "<h2 class='mt-4 mb-4'>Derniers chiffres du Coronavirus (Covid19) - Pays : ".$nomPays." ( ".$codePays." )</h2>";
+        $this->page .= "<div class='d-flex mb-3'>
+                        <p class='mb-0 mr-3'><a href='index.php?controller=country&action=createPdf&pays=".$nomPays."'><button type='button' class='btn btn-success'><i class='fas fa-file-download'></i> PDF</button></a></p>
+                        <p class='mb-0'><a href='index.php?controller=country&action=export_data_to_csv&pays=".$nomPays."'><button type='button' class='btn btn-warning'><i class='fas fa-file-download'></i> CSV</button></a></p>
+                        </div>";
         $this->page .= "<table class='table table-sm'>";
         $this->page .= "<thead class='thead-dark'><tr>";
         $this->page .= "<th scope='col' class='align-middle'>Date</th>";

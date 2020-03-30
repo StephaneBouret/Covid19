@@ -460,27 +460,29 @@ class CountryModel extends Model
      * @param [type] $newData
      * @return void
      */
-    public function compareFile($oldData, $newData)
+    public function compareFile($oldData, $newRawData)
     {
         $filteredData = [];
-        // var_dump($newData);
-        foreach ($newData as $newCountryName => $newValue) {
+        // var_dump($newRawData);
+        foreach ($newRawData as $newCountryName => $newValue) {
             // var_dump(array_keys($oldData));
             // var_dump($newCountryName);
             if (!in_array($newCountryName, array_keys($oldData))) {
                 $filteredData[$newCountryName] = [];
                 foreach ($newValue as $time => $data) {
+                    // var_dump($newValue);
                     $filteredData[$newCountryName][$time] = $data;
                 }
             } else {
                 foreach ($newValue as $time => $data) {
+                    // var_dump($oldData[$newCountryName]['data']);
                     if (!in_array($time, array_keys($oldData[$newCountryName]['data']))) {
                         $filteredData[$newCountryName][$time] = $data;
                     }
                 }
             }
         }
-        // var_dump(count($filteredData));
+        // var_dump($filteredData);
         return $filteredData;
     }
 

@@ -77,6 +77,22 @@ class CountryController extends Controller
         header("Location: index.php");
     }
 
+    public function uploadFile()
+    {
+        if (isset($_FILES['uploadFile'])) {
+            $file = $_FILES["uploadFile"];
+            $fileName = $file['tmp_name'];
+            $parsedData = $this->model->parseJSONFile($fileName);
+            $newRawData = $parsedData['countries'];
+            $oldData = $this->model->getFullDataFromDBase();
+            $newData = $this->model->compareFile($oldData, $newRawData);
+            $dataToUpload = $this->model->addCodeAndPopulations($newData);
+            $this->model->checkCountryList($dataToUpload);
+            $this->model->uploadDataToDBase($dataToUpload);
+            header("Location: index.php");
+        } 
+    }
+
     public function createPdf()
     {
         $country = $this->model->getCountry();

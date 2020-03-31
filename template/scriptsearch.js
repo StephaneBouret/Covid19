@@ -34,5 +34,12 @@ $(document).ready(function() {
           // }
         });
       });  
+
+      $('#clearBDD').click(() => {
+        var resp  = confirm("Voulez-vous vider la base de donnée ?");
+        if (resp) {
+          window.location="index.php?controller=country&action=clearBdd";
+        }
+      });
       
     });

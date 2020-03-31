@@ -13,7 +13,8 @@ class CountryModel extends Model
         FROM daydata as d
         LEFT JOIN country as c
         ON d.code = c.code
-        GROUP BY name";
+        WHERE Date = (SELECT MAX(Date) FROM daydata)
+        ORDER BY name";
         $result = $this->connexion->query($requete);
         $listCountries = $result->fetchAll(PDO::FETCH_ASSOC);
         return $listCountries;
@@ -31,7 +32,8 @@ class CountryModel extends Model
         FROM daydata as d
         LEFT JOIN country as c
         ON d.code = c.code
-        WHERE c.name = :pays");
+        WHERE c.name = :pays
+        ORDER BY Date DESC");
         $requete->bindParam(':pays', $pays);
         $result = $requete->execute();
         $country = $requete->fetchAll(PDO::FETCH_ASSOC);
@@ -457,7 +459,7 @@ class CountryModel extends Model
      * Fonction comparaison des données
      *
      * @param [type] $oldData
-     * @param [type] $newData
+     * @param [type] $newRawData
      * @return void
      */
     public function compareFile($oldData, $newRawData)

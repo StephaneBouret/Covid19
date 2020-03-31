@@ -82,7 +82,7 @@ class CountryView extends View
       </div>";
         // if(isset($_SESSION['user'])){
         $this->page .= "<div class='d-flex justify-content-between mb-3'><p class='mb-0'><a href='index.php?controller=country&action=automaticUpload'><button type='button' class='btn btn-primary'>Mettre à jour</button></a></p>
-        <p class='mb-0'><a href='index.php?controller=country&action=clearBdd'><button type='button' class='btn btn-danger'><i class='far fa-trash-alt'></i> Vider la table</button></a></p>
+        <p class='mb-0'><a id='clearBDD'><button type='button' class='btn btn-danger'><i class='far fa-trash-alt'></i> Vider la table</button></a></p>
         <form action='index.php?controller=country&action=uploadFile' method='post' enctype='multipart/form-data'><label for='uploadFile' class='btn btn-warning'><i class='fas fa-upload'></i> Upload File</label>
         <input type='file' id='uploadFile' hidden name='uploadFile' onchange='form.submit()'>
         </form>
